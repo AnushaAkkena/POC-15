@@ -12,7 +12,6 @@ pipeline {
         git url: 'https://github.com/techcoms/Terraform.git', branch: 'main'
       }
     }
-
     stage('Terraform Apply') {
       steps {
         withCredentials([usernamePassword(credentialsId: 'aws-creds',
