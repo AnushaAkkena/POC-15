@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    AWS_REGION   = "ap-south-1"
+    AWS_REGION   = "ap-southeast-2"
     CLUSTER_NAME = "demo-eks-cluster" // fallback
   }
 
